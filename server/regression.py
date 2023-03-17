@@ -4,13 +4,13 @@ import pickle
 import os
 
 # Get path to file dynamically
-WD = os.path.dirname(os.getcwd())
+WD = os.path.dirname('')
 print(WD)
 
 # generate flask app object
 app = Flask(__name__)
 # Read pickle regression model
-file_path = os.path.join(WD, '/models/pickled/model.pkl')
+file_path = os.path.join(WD, 'models/pickled/model.pkl')
 with open(file_path, 'rb') as f:
     model = pickle.load(f)
 

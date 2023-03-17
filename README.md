@@ -33,7 +33,7 @@
 
     ![docker.png](ml-regression-flask/screenshoot/docker.png)
     
-6. Open this url on browser `http://127.0.0.1:5001/predict-salary?exp=100` and change values "100" with your desire number to predict the salary
+6. Open this url on browser `http://127.0.0.1:5001/predict-salary?exp=12` and change values "12" with your desire number to predict the salary
 7. In 100 years of experience it will get salary prediction below
 
     ![result.png](ml-regression-flask/screenshoot/result.png)
